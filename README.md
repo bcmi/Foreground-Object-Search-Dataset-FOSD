@@ -1,4 +1,12 @@
-# Foreground Object Search by Distilling Composite Image Feature, *ICCV 2023*.
+# Foreground Object Search Dataset FOSD
+
+This is the official repository for the following paper:
+
+> **Foreground Object Search by Distilling Composite Image Feature**  [[arXiv]](https://arxiv.org/pdf/2308.04990.pdf)<br>
+>
+> Bo Zhang, Jiacheng Sui, Li Niu<br>
+> Accepted by **ICCV 2023**.
+
 
 ## Requirements
 
