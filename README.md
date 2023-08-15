@@ -148,6 +148,10 @@ Similarly, train a new rfosd model by:
 .train/train_rfosd.sh
 ```
 
+## FOS score
+
+Our model can be used to evaluate the compatibility between foreground and background in terms of geometry and semantics.
+
 ## License
 
 Both background and foreground images of S-FOSD belong to Open-Images. The background images of R-FOSD are collected from Internet and are licensed under a Creative Commons Attribution 4.0 License.
