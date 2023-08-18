@@ -152,6 +152,20 @@ Similarly, train a new rfosd model by:
 
 Our model can be used to evaluate the compatibility between foreground and background in terms of geometry and semantics.
 
+To launch the demo, you can run:
+
+```
+python demo/demo_ui.py
+```
+
+Here are three steps you can take to get a compatibility  score for the foreground and the background.
+
+1) Upload a background image in the left box of the first row
+
+2) Click the left-top point and the right-bottom point of the bounding box in the right box of the first row
+
+3) Upload a foreground image in the left box of the second row, then click 'run' button.
+
 ## License
 
 Both background and foreground images of S-FOSD belong to Open-Images. The background images of R-FOSD are collected from Internet and are licensed under a Creative Commons Attribution 4.0 License.

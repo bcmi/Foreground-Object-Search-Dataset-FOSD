@@ -116,18 +116,16 @@ if __name__ == '__main__':
     parser.add_argument('--saveScorePath', type=str, default="model_scores", help="Path to save scores.")
     parser.add_argument('--saveTop20Path', type=str, default="top20", help="Path to save top 20 results.")
     args = parser.parse_args()
-
-    config_file = os.path.join(PROJ_dir, 'config/config.yaml')
-    cfg = Config(config_file)
-    device = torch.device('cuda:0')
-    model = StudentModel(cfg).to(device).eval()
     
-    
-    ckpt_dir = os.path.join(PROJ_dir, 'models')
+    ckpt_dir = os.path.join(PROJ_dir, 'checkpoints')
     assert os.path.exists(ckpt_dir), ckpt_dir
     
     weight_list = ["sfosd.pth", "rfosd.pth"]
     if args.testOnSet1 == True:
+        config_file = os.path.join(PROJ_dir, 'config/config_sfosd.yaml')
+        cfg = Config(config_file)
+        device = torch.device('cuda:0')
+        model = StudentModel(cfg).to(device).eval()
         weight_epoch = weight_list[0]
         evaluater = Evaluater(cfg)
         weight_file = os.path.join(ckpt_dir, weight_epoch)
@@ -137,6 +135,10 @@ if __name__ == '__main__':
         model.load_state_dict(weights, strict=True)
         evaluater.eval_afterTraining(model, args.threshold, True, False)
     if args.testOnSet2 == True:
+        config_file = os.path.join(PROJ_dir, 'config/config_rfosd.yaml')
+        cfg = Config(config_file)
+        device = torch.device('cuda:0')
+        model = StudentModel(cfg).to(device).eval()
         weight_epoch = weight_list[1]
         evaluater = Evaluater(cfg)
         weight_file = os.path.join(ckpt_dir, weight_epoch)
