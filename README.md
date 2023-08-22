@@ -148,7 +148,7 @@ Similarly, train a new rfosd model by:
 .train/train_rfosd.sh
 ```
 
-## FOS score
+## FOS Score
 
 Our model can be used to evaluate the compatibility between foreground and background in terms of geometry and semantics.
 
@@ -165,6 +165,11 @@ Here are three steps you can take to get a compatibility  score for the foregrou
 2) Click the left-top point and the right-bottom point of the bounding box in the right box of the first row
 
 3) Upload a foreground image in the left box of the second row, then click 'run' button.
+
+# Other Resources
+
++ [Awesome-Foreground-Object-Search](https://github.com/bcmi/Awesome-Foreground-Object-Search)
++ [Awesome-Image-Composition](https://github.com/bcmi/Awesome-Image-Composition)
 
 ## License
 
