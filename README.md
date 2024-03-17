@@ -7,6 +7,7 @@ This is the official repository for the following paper:
 > Bo Zhang, Jiacheng Sui, Li Niu<br>
 > Accepted by **ICCV 2023**.
 
+**Our model has been integrated into our image composition toolbox libcom https://github.com/bcmi/libcom. Welcome to visit and try ＼(^▽^)／** 
 
 ## Requirements
 
