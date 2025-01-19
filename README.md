@@ -170,7 +170,7 @@ Here are three steps you can take to get a compatibility  score for the foregrou
 ## Other Resources
 
 + [Awesome-Foreground-Object-Search](https://github.com/bcmi/Awesome-Foreground-Object-Search)
-+ [Awesome-Image-Composition](https://github.com/bcmi/Awesome-Image-Composition)
++ [Awesome-Image-Composition](https://github.com/bcmi/Awesome-Object-Insertion)
 
 ## License
 
