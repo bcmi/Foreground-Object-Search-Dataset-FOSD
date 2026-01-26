@@ -109,6 +109,30 @@ data
         └── segmentations.csv
 ```
 
+We also provide the complete R-FOSD dataset via ([Baidu disk](https://pan.baidu.com/s/1NEj6fCyZtHu7W6J40lUYYA?pwd=4244) code: 4244) or [Dropbox](https://www.dropbox.com/scl/fo/qpmc4oextstnti53ldrnl/AESXC-8Alt02LOloNkUKh6I?rlkey=7dosb9gkkxjremas295tngw7g&st=ngmqwprs&dl=0), which can be directly downloaded. R-FOSD dataset contains 32 categories, in which each category has 20 backgrounds and 200 foregrounds. We provide manually annotated binary label for each foreground-background pair, which indicates whether the foreground and background are geometrically and semantically compatible. 
+
+RFOSD
+├── Cat
+│   ├── backgrounds
+│   │   ├── xxx.jpg
+│   │   ├── xxx.jpg
+│   │   ...
+│   │── foregrounds
+│   │   ├── xxx.png
+│   │   ├── xxx.png
+│   │   ...
+│   │── bbox
+│   │   ├── xxx.txt
+│   │   ├── xxx.txt
+│   │   ...
+│   ├── annotations.json
+│ 
+├── Coffee cup
+│
+│   ...
+
+
+
 ## Pretrained Model
 
 We provide the checkpoint ([Baidu disk](https://pan.baidu.com/s/1_Dh2w08AAqdsw8Cb3l4nfQ) code: 7793) or [Dropbox](https://www.dropbox.com/scl/fi/m8ek5m62jw2f22egi18sw/sfosd.pth?rlkey=qnkqxlu3tr1jqw2xefpkljsdu&st=ru95xdkr&dl=0) for the evaluation on S-FOSD dataset and checkpoint ([Baidu disk](https://pan.baidu.com/s/17jq1FWKSsEngp7scB4357Q) code: 6kme)  or [Dropbox](https://www.dropbox.com/scl/fi/7f278c270wbeop1i387wj/rfosd.pth?rlkey=kocu38egtqr9d0bings5toye8&st=4a9edban&dl=0) for testing on R-FOSD dataset. By default, we assume that the pretrained model is downloaded and saved to the directory `checkpoints`.
