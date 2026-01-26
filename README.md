@@ -111,6 +111,7 @@ data
 
 We also provide the complete R-FOSD dataset via ([Baidu disk](https://pan.baidu.com/s/1NEj6fCyZtHu7W6J40lUYYA?pwd=4244) code: 4244) or [Dropbox](https://www.dropbox.com/scl/fo/qpmc4oextstnti53ldrnl/AESXC-8Alt02LOloNkUKh6I?rlkey=7dosb9gkkxjremas295tngw7g&st=ngmqwprs&dl=0), which can be directly downloaded. R-FOSD dataset contains 32 categories, in which each category has 20 backgrounds and 200 foregrounds. We provide manually annotated binary label for each foreground-background pair, which indicates whether the foreground and background are geometrically and semantically compatible. 
 
+```
 RFOSD
 ├── Cat
 │   ├── backgrounds
@@ -130,7 +131,7 @@ RFOSD
 ├── Coffee cup
 │
 │   ...
-
+```
 
 
 ## Pretrained Model
