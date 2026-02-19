@@ -9,6 +9,11 @@ This is the official repository for the following paper:
 
 **Our model has been integrated into our image composition toolbox libcom https://github.com/bcmi/libcom. Welcome to visit and try ＼(^▽^)／** 
 
+## Demo
+Try this [online demo](https://libcom.ustcnewly.com/) for image composition and have fun!
+
+[![]](https://github.com/user-attachments/assets/87416ec5-2461-42cb-9f2d-5030b1e1b5ec)
+
 ## Requirements
 
 - See requirements.txt for other dependencies.
