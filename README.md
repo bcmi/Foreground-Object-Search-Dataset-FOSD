@@ -7,10 +7,9 @@ This is the official repository for the following paper:
 > Bo Zhang, Jiacheng Sui, Li Niu<br>
 > Accepted by **ICCV 2023**.
 
-**Our model has been integrated into our image composition toolbox libcom https://github.com/bcmi/libcom. Welcome to visit and try ＼(^▽^)／** 
 
 ## Demo
-Try this [online demo](https://libcom.ustcnewly.com/) for image composition and have fun!
+Our teacher model has been integrated into [libcom](https://github.com/bcmi/libcom) toolbox for viewpoint rationality assessment. Try this [online demo](http://libcom.ustcnewly.com/) for image composition (object insertion) built upon [libcom](https://github.com/bcmi/libcom) toolbox and have fun!
 
 [![]](https://github.com/user-attachments/assets/87416ec5-2461-42cb-9f2d-5030b1e1b5ec)
 
@@ -141,7 +140,7 @@ RFOSD
 
 ## Pretrained Model
 
-We provide the checkpoint ([Baidu disk](https://pan.baidu.com/s/1_Dh2w08AAqdsw8Cb3l4nfQ) code: 7793) or [Dropbox](https://www.dropbox.com/scl/fi/m8ek5m62jw2f22egi18sw/sfosd.pth?rlkey=qnkqxlu3tr1jqw2xefpkljsdu&st=ru95xdkr&dl=0) for the evaluation on S-FOSD dataset and checkpoint ([Baidu disk](https://pan.baidu.com/s/17jq1FWKSsEngp7scB4357Q) code: 6kme)  or [Dropbox](https://www.dropbox.com/scl/fi/7f278c270wbeop1i387wj/rfosd.pth?rlkey=kocu38egtqr9d0bings5toye8&st=4a9edban&dl=0) for testing on R-FOSD dataset. By default, we assume that the pretrained model is downloaded and saved to the directory `checkpoints`.
+We provide the checkpoint ([Baidu disk](https://pan.baidu.com/s/1_Dh2w08AAqdsw8Cb3l4nfQ) code: 7793) or [Dropbox](https://www.dropbox.com/scl/fi/m8ek5m62jw2f22egi18sw/sd.pth?rlkey=qnkqxlu3tr1jqw2xefpkljsdu&st=ru95xdkr&dl=0) for the evaluation on S-D dataset and checkpoint ([Baidu disk](https://pan.baidu.com/s/17jq1FWKSsEngp7scB4357Q) code: 6kme)  or [Dropbox](https://www.dropbox.com/scl/fi/7f278c270wbeop1i387wj/rfosd.pth?rlkey=kocu38egtqr9d0bings5toye8&st=4a9edban&dl=0) for testing on R-FOSD dataset. By default, we assume that the pretrained model is downloaded and saved to the directory `checkpoints`.
 
 ## Testing
 
