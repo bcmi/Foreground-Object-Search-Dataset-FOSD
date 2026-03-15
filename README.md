@@ -137,6 +137,12 @@ RFOSD
 │   ...
 ```
 
+We show several examples of composite images and annotated binary labels from our R-FOSD dataset below. The label indicates whether the foreground and background are geometrically and semantically compatible.
+
+<p align='center'>  
+  <img src='./fos_score_examples.jpg'  width=80% />
+</p>
+
 
 ## Pretrained Model
 
