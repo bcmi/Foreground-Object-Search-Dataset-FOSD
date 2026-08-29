@@ -151,7 +151,7 @@ We show several examples of composite images and annotated binary labels from ou
 
 ## Pretrained Model
 
-We provide the checkpoint ([Baidu disk](https://pan.baidu.com/s/1_Dh2w08AAqdsw8Cb3l4nfQ) code: 7793) or [Dropbox](https://www.dropbox.com/scl/fi/m8ek5m62jw2f22egi18sw/sd.pth?rlkey=qnkqxlu3tr1jqw2xefpkljsdu&st=ru95xdkr&dl=0) for the evaluation on S-D dataset and checkpoint ([Baidu disk](https://pan.baidu.com/s/17jq1FWKSsEngp7scB4357Q) code: 6kme)  or [Dropbox](https://www.dropbox.com/scl/fi/7f278c270wbeop1i387wj/rfosd.pth?rlkey=kocu38egtqr9d0bings5toye8&st=4a9edban&dl=0) for testing on R-FOSD dataset. By default, we assume that the pretrained model is downloaded and saved to the directory `checkpoints`.
+We provide the checkpoint ([Baidu disk](https://pan.baidu.com/s/1_Dh2w08AAqdsw8Cb3l4nfQ) code: 7793) or [Dropbox](https://www.dropbox.com/scl/fi/m8ek5m62jw2f22egi18sw/sd.pth?rlkey=qnkqxlu3tr1jqw2xefpkljsdu&st=ru95xdkr&dl=0) for the evaluation on S-FOSD dataset and checkpoint ([Baidu disk](https://pan.baidu.com/s/17jq1FWKSsEngp7scB4357Q) code: 6kme)  or [Dropbox](https://www.dropbox.com/scl/fi/7f278c270wbeop1i387wj/rfosd.pth?rlkey=kocu38egtqr9d0bings5toye8&st=4a9edban&dl=0) for the evaluation on R-FOSD dataset. By default, we assume that the pretrained model is downloaded and saved to the directory `checkpoints`.
 
 ## Testing
 
@@ -177,13 +177,13 @@ If you want to save the model's prediction scores on R-FOSD, add `--saveScores` 
 
 Please download the pretrained teacher models from [Baidu disk](https://pan.baidu.com/s/1D_zT326PLXZ-C0j5mcCY6A) (code: 40a5) or [Dropbox](https://www.dropbox.com/scl/fo/engplb7s60urs89g6vegc/APzYeC9H-T4mHCQdk3YzNJA?rlkey=qt1em79qmwmv2e5fr6lkfuz7i&st=ynfabtm4&dl=0) and save the model to directory `checkpoints/teacher`. 
 
-To train a new sfosd model, you can simply run:
+To train a new S-FOSD model, you can simply run:
 
 ```
 .train/train_sfosd.sh
 ```
 
-Similarly, train a new rfosd model by:
+Similarly, train a new R-FOSD model by:
 
 ```
 .train/train_rfosd.sh
